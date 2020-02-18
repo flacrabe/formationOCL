@@ -1,4 +1,7 @@
-.logoEco {
-    height: 30 px;
-    width: auto;
+.contact {
+    line-height: 5px;
+}
+
+.heightCenter a img {
+    height: 50px;
 }

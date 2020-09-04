@@ -9,6 +9,7 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { EquipeComponent } from './equipe/equipe.component';
 import { CentreFormationComponent } from './centre-formation/centre-formation.component';
 import { FormationsComponent } from './formations/formations.component';
+import { GarageComponent } from './garage/garage.component';
 
 const appRoutes: Routes = [
     {
@@ -31,6 +32,10 @@ const appRoutes: Routes = [
     path: 'formations',
     component: FormationsComponent
   },
+  {
+    path: 'formations_enfant',
+    component: GarageComponent
+  },
 ];
 
 @NgModule({
@@ -41,7 +46,8 @@ const appRoutes: Routes = [
     AccueilComponent,
     EquipeComponent,
     CentreFormationComponent,
-    FormationsComponent
+    FormationsComponent,
+    GarageComponent
   ],
   imports: [
     BrowserModule,

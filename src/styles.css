@@ -49,6 +49,14 @@
             text-decoration: none;
         }
         
+        .fondColor {
+            background: rgb(115, 149, 255);
+            background: linear-gradient(260deg, rgba(115, 149, 255, 1) 0%, rgba(255, 22, 226, 0.38) 60%, rgba(14, 255, 207, 1) 100%);
+            width: 100%;
+            padding: 10px 0 10px 0;
+            margin-bottom: 20px;
+        }
+        
         .boutonCardOrange {
             display: block;
             margin-left: auto;
@@ -361,7 +369,7 @@
         
         .nav>.nav-header>.nav-title {
             display: inline-block;
-            font-size: 22px;
+            font-size: 25px;
             color: rgb(0, 0, 0);
             padding: 10px 10px 10px 10px;
         }
@@ -371,7 +379,7 @@
         }
         
         .nav>.nav-links {
-            font-size: 18px;
+            font-size: 22px;
         }
         
         .nav>.nav-links>a {

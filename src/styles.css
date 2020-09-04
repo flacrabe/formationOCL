@@ -36,6 +36,14 @@
             text-decoration: none;
         }
         
+        .mb100 {
+            margin-bottom: 100px;
+        }
+        
+        .mb50 {
+            margin-bottom: 50px;
+        }
+        
         a:hover {
             color: rgb(0, 43, 68);
             text-decoration: none;
@@ -74,6 +82,25 @@
         }
         
         .boutonCardTurquoise a {
+            margin: 5px;
+            color: white;
+            font-size: larger;
+        }
+        
+        .boutonCardRed {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 12px 0 12px 0;
+            background: #e70505;
+            border: none;
+            color: #fff;
+            font: bold 12px Verdana;
+            padding: 6px 0 6px 0;
+            margin-bottom: 10px;
+        }
+        
+        .boutonCardRed a {
             margin: 5px;
             color: white;
             font-size: larger;

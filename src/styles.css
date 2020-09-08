@@ -50,8 +50,7 @@
         }
         
         .fondColor {
-            background: rgb(115, 149, 255);
-            background: linear-gradient(260deg, rgba(115, 149, 255, 1) 0%, rgba(255, 22, 226, 0.38) 60%, rgba(14, 255, 207, 1) 100%);
+            background: rgb(176, 196, 255);
             width: 100%;
             padding: 10px 0 10px 0;
             margin-bottom: 20px;
